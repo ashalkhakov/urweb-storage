@@ -1,0 +1,26 @@
+ffi storage__FFI
+clientOnly Storage__FFI.length
+clientOnly Storage__FFI.key
+clientOnly Storage__FFI.getItem
+clientOnly Storage__FFI.setItem
+clientOnly Storage__FFI.removeItem
+clientOnly Storage__FFI.clear
+clientOnly Storage__FFI.getLocalStorage
+clientOnly Storage__FFI.getSessionStorage
+jsFunc Storage__FFI.length=UrWeb.Storage.length
+jsFunc Storage__FFI.key=UrWeb.Storage.key
+jsFunc Storage__FFI.getItem=UrWeb.Storage.getItem
+jsFunc Storage__FFI.setItem=UrWeb.Storage.setItem
+jsFunc Storage__FFI.removeItem=UrWeb.Storage.removeItem
+jsFunc Storage__FFI.clear=UrWeb.Storage.clear
+jsFunc Storage__FFI.getLocalStorage=UrWeb.Storage.getLocalStorage
+jsFunc Storage__FFI.getSessionStorage=UrWeb.Storage.getSessionStorage
+file /xGcVcG.js storage__FFI.js
+script /xGcVcG.js
+
+$/char
+$/list
+$/string
+$/option
+$/json
+storage
